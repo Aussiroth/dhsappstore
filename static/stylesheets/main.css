@@ -109,10 +109,6 @@ body {
 .red {
 	border: solid red 1px;
 }
-
-#sidebar {
-	font: 18px/25px serif;
-}
    
 header{
 	margin-bottom: 1.5%;
@@ -136,28 +132,35 @@ header{
 	position: fixed;
 	left: 15px;
 	width: 15%;
+	font-size: 18px;
+	line-height:25px;
 }
 
 #content {
 	float: right;
+	margin-right:1.5%;
+	padding: 1.5%;
+	width: 75%;
 }
 
 #showcase{
 	width: 50%;
+	margin: auto;
 }
 
 .clear{
 	clear: both;
 }
-
-#content, #footer , #sidebar{
+#footer , #sidebar{
 	padding: 0.5%;
 }
 
-#content, #footer {
+#footer {
 	margin: 1% auto;
 	width: 80%;
 	position: relative;
+	font-size: 13px;
+	line-height: 13px;
 }
 
 ul {
@@ -170,17 +173,29 @@ ul {
 	text-align:center;
 }
 
-#footer {
-	font-size: 13px;
-	line-height: 13px;
+.justified {
+	text-align:justify;
 }
 
-.black {
+.app {
+	padding: 0 1.5%;
+}
+
+a, a:visited{
 	color: black;
 }
 
+.screenshot {
+	width: 60%;
+}
 
-
+.desc { 
+	text-align: left;
+}
+#starpic{
+	height: 25px;
+	width:25px;
+}
 
 /* ==========================================================================
    Helper classes
@@ -316,6 +331,7 @@ ul {
     a,
     a:visited {
         text-decoration: underline;
+		color: black;
     }
 
     a[href]:after {

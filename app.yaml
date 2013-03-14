@@ -10,7 +10,8 @@ handlers:
   
 - url: /.*
   script: dhsappstore.app
+  login: required
   
 libraries:
 - name: jinja2
-  version: latest
+  version: 2.6
