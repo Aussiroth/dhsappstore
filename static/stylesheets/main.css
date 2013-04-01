@@ -107,7 +107,7 @@ body {
 }
 
 .red {
-	border: solid red 1px;
+	border: solid red 0.1px;
 }
    
 header{
@@ -138,7 +138,7 @@ header{
 
 #content {
 	float: right;
-	margin-right:1.5%;
+	margin: auto;
 	padding: 1.5%;
 	width: 75%;
 }
@@ -189,12 +189,23 @@ a, a:visited{
 	width: 60%;
 }
 
-.desc { 
+.left { 
 	text-align: left;
 }
 #starpic{
 	height: 25px;
 	width:25px;
+}
+
+@media only screen and (max-width: 720px) {
+	#sidebar{
+		position:relative;
+		width: 80%;
+		clear:both;
+	#content{
+		position:relative;
+		width:100%;
+		clear:both;
 }
 
 /* ==========================================================================
